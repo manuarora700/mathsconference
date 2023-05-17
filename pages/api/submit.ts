@@ -36,7 +36,7 @@ export default async function handler(req: any, res: any) {
 
     // Create the mail options
     const mailOptions: Email = {
-      to: `${email}, manu@gomoonbeam.com`,
+      to: `${email}, aiamms@jecrcu.edu.in`,
       subject: "PDF Attachment",
       body: `Please find the attached PDF file.
         name: ${name},<br />
